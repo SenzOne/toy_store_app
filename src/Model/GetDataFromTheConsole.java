@@ -4,12 +4,16 @@ import java.util.Scanner;
 
 public class GetDataFromTheConsole {
 
-    public String Prompt(){
-
-        System.out.println("Введите данные: ");
+    public String PromptToy(){
+        System.out.println("Введите данные в формате id название вероятность: ");
         Scanner scanner = new Scanner(System.in);
-        String data = scanner.nextLine();
-        return data;
+        return scanner.nextLine();
+    }
+
+    public char PromptExit(){
+        System.out.println("добавить еще игрушек? y/n");
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine().charAt(0);
     }
 }
 

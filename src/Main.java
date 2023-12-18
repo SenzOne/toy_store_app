@@ -7,6 +7,6 @@ public class Main {
     public static void main(String[] args) {
         Controller controller = new Controller();
         controller.createAndGetToy();
-        controller.show();
+        controller.addToQueue();
     }
 }

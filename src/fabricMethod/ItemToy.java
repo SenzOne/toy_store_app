@@ -2,7 +2,8 @@ package fabricMethod;
 
 public abstract class ItemToy implements Comparable<Toy> {
     private int id;
-    private String name;
+    private int idInTheQueue;
+    private final String name;
     private double probabilityOfLoss;
 
     public ItemToy(int id, String name, double probabilityOfLoss) {
@@ -10,6 +11,11 @@ public abstract class ItemToy implements Comparable<Toy> {
         this.name = name;
         this.probabilityOfLoss = probabilityOfLoss;
     }
+
+    public void setIdInTheQueue(int idInTheQueue) {
+        this.idInTheQueue = idInTheQueue;
+    }
+
 
     public int getId() {
         return id;
