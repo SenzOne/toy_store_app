@@ -1,5 +1,12 @@
+import Controller.Controller;
+import fabricMethod.ItemToy;
+import fabricMethod.Toy;
+import fabricMethod.ToyGen;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Controller controller = new Controller();
+        controller.createAndGetToy();
+        controller.show();
     }
 }
