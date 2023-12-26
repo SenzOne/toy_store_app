@@ -1,18 +1,31 @@
 package fabricMethod;
 
+/**
+ * Класс, представляющий игрушку.
+ * Наследуется от абстрактного класса ItemToy и реализует интерфейс Comparable.
+ */
 public class Toy extends ItemToy {
 
+    /**
+     * Конструктор для создания объекта Toy.
+     * @param id Уникальный идентификатор игрушки.
+     * @param name Название игрушки.
+     * @param probabilityOfLoss Вероятность потери игрушки.
+     */
     public Toy(int id, String name, double probabilityOfLoss) {
         super(id, name, probabilityOfLoss);
     }
-    
 
     /**
-     * @param o the object to be compared.
-     * @return
+     * Метод сравнения текущей игрушки с другой игрушкой по их идентификаторам в очереди.
+     * @param o Другая игрушка, с которой производится сравнение.
+     * @return Результат сравнения (отрицательное число, ноль или положительное число).
+     *         Отрицательное число, если текущая игрушка стоит перед другой игрушкой в очереди.
+     *         Ноль, если игрушки имеют одинаковые идентификаторы в очереди.
+     *         Положительное число, если текущая игрушка стоит после другой игрушки в очереди.
      */
     @Override
     public int compareTo(Toy o) {
-        return this.getId() - o.getId();
+        return this.getIdInTheQueue() - o.getIdInTheQueue();
     }
 }

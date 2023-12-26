@@ -1,0 +1,20 @@
+Id: 3 name: car probabilityOfLoss: 0.8
+Id: 1 name: lego probabilityOfLoss: 0.1
+Id: 3 name: car probabilityOfLoss: 0.8
+Id: 1 name: lego probabilityOfLoss: 0.1
+Id: 1 name: Robot probabilityOfLoss: 0.4
+Id: 2 name: Car probabilityOfLoss: 0.6
+Id: 1 name: Robot probabilityOfLoss: 0.9
+Id: 2 name: Крыса probabilityOfLoss: 0.1
+Id: 1 name:  board game  probabilityOfLoss: 0.5
+Id: 2 name:  toy train  probabilityOfLoss: 0.3
+Id: 2 name:  Robot  probabilityOfLoss: 0.9
+Id: 1 name:  toy train  probabilityOfLoss: 0.1
+Id: 11 name:  Крыса  probabilityOfLoss: 0.6
+Id: 10 name:  car  probabilityOfLoss: 0.4
+Id: 12 name: board game probabilityOfLoss: 0.6
+Id: 15 name: Robot probabilityOfLoss: 0.1
+Id: 12 name: Robot probabilityOfLoss: 0.4
+Id: 1 name: Замок из конструктора Lego probabilityOfLoss: 0.6
+Id: 50 name: Настольная игра probabilityOfLoss: 0.5
+Id: 2 name: Экшн-фигура probabilityOfLoss: 0.3

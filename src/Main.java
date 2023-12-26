@@ -8,5 +8,7 @@ public class Main {
         Controller controller = new Controller();
         controller.createAndGetToy();
         controller.addToQueue();
+        controller.addToQueue();
+        controller.addToFile();
     }
 }
